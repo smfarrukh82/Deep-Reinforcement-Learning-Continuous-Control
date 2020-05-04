@@ -11,10 +11,9 @@ The critic model is a neural network with four hidden layers of size 256, 256, 1
 
 ## Training plots
 I solved the environment in 150 episodes. I used Udacity's GPU and it took me around 8-10 hours to solve the environment.
-### training
-![First_training_1](/images/Capture1.PNG)
 
-Only last 100 episodes are plotted
+### training
+The training done on 150 episodes and plotted as shown in the html file.
 
 ## Ideas for future work
 As introduced in the [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/pdf/1604.06778.pdf) Truncated Natural Policy Gradient (TNPG) and Trust Region Policy Optimization (TRPO)  (Schulman et al., 2015) should improve the learning speed of the algorithm. In addition to that, I could use the simulator with 20 agents to speed up learning.
