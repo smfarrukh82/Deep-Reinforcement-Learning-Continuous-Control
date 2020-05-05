@@ -12,6 +12,10 @@ The critic model is a neural network with four hidden layers of size 256, 256, 1
 ## Training plots
 I solved the environment in 150 episodes. I used Udacity's GPU and it took me around 8-10 hours to solve the environment.
 
+https://github.com/smfarrukh82/Deep-Reinforcement-Learning-Continuous-Control/blob/master/graph_showing_30.12.png
+
+Here it shows that 30.12 rate is achieved.
+
 ### training
 The training done on 150 episodes and plotted as shown in the html file.
 
